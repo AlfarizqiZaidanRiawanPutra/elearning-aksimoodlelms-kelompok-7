@@ -1,0 +1,34 @@
+Apa fungsi utama VLAN pada jaringan?
+A. Mempercepat internet
+B. Membagi jaringan menjadi beberapa segmen virtual
+C. Menghubungkan komputer ke printer
+D. Menghapus IP address
+Jawaban: B
+
+Perangkat yang digunakan untuk mengatur VLAN adalah ....
+A. Hub
+B. Router
+C. Switch manageable
+D. Access Point
+Jawaban: C
+
+VLAN bekerja pada layer berapa dalam model OSI?
+A. Physical Layer
+B. Data Link Layer
+C. Transport Layer
+D. Application Layer
+Jawaban: B
+
+Perintah untuk membuat VLAN pada switch Cisco adalah ....
+A. create vlan
+B. vlan database
+C. vlan [nomor]
+D. ip vlan
+Jawaban: C
+
+Tujuan penggunaan VLAN dalam sekolah adalah ....
+A. Agar semua komputer bebas terhubung
+B. Memisahkan jaringan guru dan siswa
+C. Menghapus kebutuhan switch
+D. Mengurangi jumlah kabel LAN
+Jawaban: B

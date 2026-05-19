@@ -1,0 +1,35 @@
+Apa tujuan utama penggunaan UML dalam pengembangan perangkat lunak
+A.Membuat animasi aplikasi
+B.Mendesain dan memodelkan sistem perangkat lunak
+C.Menghapus bug program
+D.Membuat database otomatis
+ANSWER: B
+
+Diagram UML yang digunakan untuk menggambarkan interaksi pengguna dengan sistem adalah
+A.Class Diagram
+B.Activity Diagram
+C.Use Case Diagram
+D.Sequence Diagram
+ANSWER: C
+
+Siapa yang berinteraksi langsung dengan sistem pada Use Case Diagram
+A.Programmer
+B.Actor
+C.Database
+D.Server
+ANSWER: B
+
+
+Diagram yang digunakan untuk menggambarkan alur aktivitas sistem disebut
+A.Use Case Diagram
+B.Activity Diagram
+C.Deployment Diagram
+D.ERD
+ANSWER: B
+
+Berikut yang termasuk manfaat UML adalah
+A.Mempermudah komunikasi antar developer
+B.Menghapus kebutuhan database
+C.Menggantikan bahasa pemrograman
+D.Membuat aplikasi tanpa coding
+ANSWER: A

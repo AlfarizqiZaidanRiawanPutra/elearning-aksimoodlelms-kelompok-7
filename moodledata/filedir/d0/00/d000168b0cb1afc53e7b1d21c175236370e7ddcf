@@ -1,0 +1,28 @@
+username;password;firstname;lastname;email
+rpl_alpha1;Siswa-001;Andi;Pratama;andipratama01@gmail.com
+rpl_alpha2;Siswa-002;Budi;Santoso;budisantoso01@gmail.com
+rpl_alpha3;Siswa-003;Citra ;Dewi;citradewi01@gmail.com
+rpl_beta1;Siswa-004;Dani;Ramadhan;daniramadhan01@gmail.com
+rpl_beta2;Siswa-005;Eka ;Putri;ekaputri01@gmail.com
+rpl_beta3;Siswa-006;Fajar ;Nugroho;fajarnugroho01@gmail.com
+rpl_gamma1;Siswa-007;Gita;Sari;gitasari01@gmail.com
+rpl_gamma2;Siswa-008;Hadi;Kurniawan;hadikurniawan01@gmail.com
+rpl_gamma3;Siswa-009;Indah;Lestari;indahlestari01@gmail.com
+tkj_alpha1;Siswa-010;Joko;Widodo;jokowidodo01@gmail.com
+tkj_alpha2;Siswa-011;Kiki ;Amelia ;kikiamelia01@gmail.com
+tkj_alpha3;Siswa-012;Luki ;Prasetyo;lukiprasetyo01@gmail.com
+tkj_beta1;Siswa-013;Maya;Sari;mayasari01@gmail.com
+tkj_beta2;Siswa-014;Nanda ;Putra;nandaputra01@gmail.com
+tkj_beta3;Siswa-015;Oki;Setiawan;okisetiawan@gmail.com
+tkj_gamma1;Siswa-016;Putri;Ayu;putriayu@gmail.com
+tkj_gamma2;Siswa-017;Rizky;Fadhil;rizkyfadhil@gmail.com
+tkj_gamma3;Siswa-018;Sari;Indah;sariindah@gmail.com
+mm_alpha1;Siswa-019;Toni;Susanto;tonisusanto@gmail.com
+mm_alpha2;Siswa-020;Umar ;Hakim;umarhakim@gmail.com
+mm_alpha3;Siswa-021;Vina;Rahayu;vinarahayu@gmail.com
+mm_beta1;Siswa-022;Wahyu;Hidayat;wahyuhidayat@gmail.com
+mm_beta2;Siswa-023;Xena;Puspita;xenapuspita@gmail.com
+mm_beta3;Siswa-024;Yogi;Pratama;yogipratama@gmail.com
+mm_gamma1;Siswa-025;Zara;Aulia;zaraaulia@gmail.com
+mm_gamma2;Siswa-026;Agus;Salim;agussalim@gmail.com
+mm_gamma3;Siswa-027;Bella;Safitri;bellasafitri@gmail.com

@@ -1,0 +1,475 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'zoom', language 'id', version '5.1'.
+ *
+ * @package     zoom
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['accountid'] = 'ID akun Zoom';
+$string['actions'] = 'Aksi';
+$string['activitydate:ended'] = 'Berakhir:';
+$string['activitydate:started'] = 'Dimulai:';
+$string['activitydate:starts'] = 'Dimulai:';
+$string['addparticipant'] = 'Tambahkan peserta';
+$string['addparticipantgroup'] = 'Tambahkan grup peserta';
+$string['addroom'] = 'Tambahkan ruangan';
+$string['addroomalert'] = 'Tambahkan ruangan dengan mengklik';
+$string['addtocalendar'] = 'Tambahkan ke kalender';
+$string['allmeetings'] = 'Semua rapat';
+$string['allmeetings_desc'] = 'Dengan pengaturan ini, Anda dapat mengontrol apakah tautan ke halaman indeks aktivitas Zoom akan ditampilkan di bagian bawah setiap halaman ikhtisar aktivitas atau tidak. Pengaturan ini hanya memengaruhi tampilan tautan di halaman ikhtisar aktivitas Zoom. Meskipun Anda memutuskan untuk tidak menampilkan tautan di sana, pengguna mungkin masih dapat mengakses halaman indeks aktivitas Zoom melalui tautan lain dalam kursus.';
+$string['allmeetings_disable'] = 'Nonaktifkan semua tautan rapat';
+$string['allmeetings_enable'] = 'Aktifkan semua tautan rapat';
+$string['alternative_hosts'] = 'Host Alternatif';
+$string['alternative_hosts_desc'] = 'Dengan pengaturan ini, Anda dapat mengontrol apakah opsi untuk memilih host alternatif akan ditampilkan kepada pengguna di pengaturan instansi aktivitas atau tidak. Tersedia dua jenis widget: Kolom masukan biasa yang menerima alamat surel yang dipisahkan koma. Dan pemilih pengguna dengan pelengkapan otomatis yang memudahkan pemilihan pengguna yang terdaftar dalam kursus, memiliki akun Zoom, dan memiliki peran di luar {$a->roles}. Host alternatif yang mungkin telah diatur langsung oleh pengajar di Zoom tetapi tidak dapat dipilih dari pemilih pengguna Moodle tetap ditampilkan di halaman ikhtisar aktivitas dan juga disimpan saat rapat diperbarui dari dalam Moodle.';
+$string['alternative_hosts_disable'] = 'Nonaktifkan opsi host alternatif';
+$string['alternative_hosts_help'] = 'Opsi host alternatif memungkinkan Anda menjadwalkan rapat dan menunjuk pengguna Zoom lain untuk memulai rapat. Pengguna ini akan menerima surel dari Zoom yang memberi tahu bahwa mereka telah ditambahkan sebagai host alternatif, beserta tautan untuk memulai rapat.\\n\\nSebagai format masukan, harap berikan alamat surel host alternatif. Anda dapat memisahkan beberapa surel dengan koma (tanpa spasi).';
+$string['alternative_hosts_inputfield'] = 'Tampilkan opsi host alternatif sebagai kolom masukan biasa';
+$string['alternative_hosts_picker'] = 'Tampilkan opsi host alternatif sebagai pemilih pengguna dengan pelengkapan otomatis';
+$string['alternative_hosts_picker_help'] = 'Opsi host alternatif memungkinkan Anda menjadwalkan rapat dan menunjuk pengguna Zoom lain yang terdaftar dalam kursus ini untuk memulai rapat. Pengguna ini akan menerima surel dari Zoom yang memberi tahu mereka bahwa mereka telah ditambahkan sebagai host alternatif, beserta tautan untuk memulai rapat. Anda dapat memilih satu atau beberapa host alternatif sesuai kebutuhan rapat Anda. Jika Anda tidak dapat menemukan pengguna tertentu di pemilih pengguna ini, berarti pengguna tersebut tidak terdaftar dalam kursus ini dengan peran yang sesuai atau tidak memiliki akun Zoom yang memenuhi syarat.';
+$string['alternative_hosts_picker_noneselected'] = 'Tidak ada host alternatif yang dipilih';
+$string['alternative_hosts_picker_placeholder'] = 'Pilih pengguna';
+$string['apiendpoint'] = 'Titik Akhir API Zoom';
+$string['apiendpoint_desc'] = 'Pilih titik akhir API Zoom yang akan digunakan aktivitas Zoom untuk terhubung. Titik akhir API global seharusnya berfungsi untuk semua pengguna. Titik akhir API Uni Eropa (EU) hanya ditujukan untuk pengguna yang memiliki lisensi Zoom dengan opsi penyediaan EU. Jika Anda tidak yakin, gunakan titik akhir API global.';
+$string['apiendpoint_eu'] = 'Titik Akhir API EU';
+$string['apiendpoint_global'] = 'Titik Akhir API Global';
+$string['apiidentifier'] = 'Pengenal API Zoom';
+$string['apiidentifier_desc'] = 'Kolom pengenal yang akan digunakan saat melakukan panggilan ke API Zoom';
+$string['apiurl'] = 'url API Zoom';
+$string['audio_both'] = 'Audio Komputer dan Telepon';
+$string['audio_telephony'] = 'Hanya telepon';
+$string['audio_voip'] = 'Hanya audio komputer';
+$string['audiodefault'] = 'Audio bawaan';
+$string['authentication'] = 'Autentikasi';
+$string['autorecording_cloud'] = 'Cloud';
+$string['autorecording_local'] = 'Lokal';
+$string['autorecording_none'] = 'Tidak Ada';
+$string['autorecording_userdefault'] = 'Gunakan pengaturan pengguna Zoom bawaan';
+$string['autorecordingoptionsupdate'] = 'Perbarui opsi rekaman otomatis';
+$string['breakoutrooms'] = 'Ruang pertemuan';
+$string['cachedef_oauth'] = 'Simpanan token OAuth Zoom';
+$string['cachedef_zoomid'] = 'Pemetaan id pengguna Zoom';
+$string['cachedef_zoommeetingsecurity'] = 'Pengaturan keamanan rapat Zoom, termasuk persyaratan kata sandi rapat akun';
+$string['calendardescriptionintro'] = '\\nDeskripsi:\\n{\\$a}';
+$string['calendariconalt'] = 'Ikon kalender';
+$string['calendarjoinurl'] = 'URL gabung ke rapat: {$a}.';
+$string['changehost'] = 'Ubah hos';
+$string['clickjoin'] = 'Mengklik tombol gabung rapat';
+$string['clientid'] = 'ID klien Zoom';
+$string['clientsecret'] = 'Rahasia klien Zoom';
+$string['connectionfailed'] = 'Koneksi gagal:';
+$string['connectionok'] = 'Koneksi sedang berjalan.';
+$string['connectionsettings'] = 'Pengaturan koneksi';
+$string['connectionsettings_desc'] = 'Pengaturan ini menentukan bagaimana Moodle terhubung ke Zoom.';
+$string['connectionstatus'] = 'Status koneksi';
+$string['day'] = 'Hari';
+$string['defaultsettings'] = 'Setelan bawaan Zoom';
+$string['defaultsettings_help'] = 'Pengaturan ini menentukan bawaan untuk semua rapat Zoom dan webinar baru.';
+$string['deletemeetingrecordings'] = 'Hapus rekaman rapat dari Moodle';
+$string['deleteroom'] = 'Hapus ruangan';
+$string['displayfirstname'] = 'Hanya nama depan';
+$string['displayfullname'] = 'Nama lengkap';
+$string['displayid'] = 'hanya (id pengguna)';
+$string['displayidfullname'] = '(id pengguna) diikuti dengan nama lengkap';
+$string['displayleadtime'] = 'Tampilkan waktu tunggu';
+$string['displayleadtime_desc'] = 'Jika diaktifkan, waktu tunggu akan ditampilkan kepada pengguna. Dengan demikian, pengguna akan diberi tahu kapan mereka dapat gabung ke rapat sebelum waktu mulai yang dijadwalkan. Hal ini dapat mencegah pengguna memuat ulang halaman secara terus-menerus hingga mereka dapat gabung.';
+$string['displayleadtime_nohideif'] = 'Harap dicatat: Pengaturan ini hanya diproses jika pengaturan \'{$a}\' diatur ke nilai lebih besar dari nol.';
+$string['displaypassword'] = 'Tampilkan kode sandi';
+$string['displaypassword_help'] = 'Jika diaktifkan, kode sandi rapat akan selalu ditampilkan kepada non-host.';
+$string['downloadical'] = 'Unduh iCal';
+$string['downloadical_desc'] = 'Dengan pengaturan ini, Anda dapat mengontrol apakah tautan untuk mengunduh berkas iCal untuk rapat akan ditampilkan di halaman ikhtisar aktivitas atau tidak. Pengaturan ini hanya memengaruhi kemungkinan mengunduh berkas iCal untuk alat kalender pihak ketiga. Apa pun pengaturan ini, aktivitas rapat Zoom akan menambahkan entri kalender ke kalender Moodle segera setelah tanggal mulai rapat ditetapkan.';
+$string['downloadical_disable'] = 'Nonaktifkan tautan unduhan iCal';
+$string['downloadical_enable'] = 'Aktifkan tautan unduhan iCal';
+$string['duration'] = 'Durasi';
+$string['encryptiontype'] = 'Jenis enkripsi';
+$string['encryptiontype_alwaysshow'] = 'Selalu tampilkan pemilih jenis enkripsi terlepas dari apakah pengguna dapat menggunakan enkripsi ujung ke ujung atau tidak';
+$string['encryptiontype_desc'] = 'Dengan pengaturan ini, Anda dapat mengontrol apakah opsi untuk memilih enkripsi ujung ke ujung daripada enkripsi yang disempurnakan akan ditampilkan kepada pengguna di pengaturan instans aktivitas atau tidak. Pengaturan ini hanya memengaruhi pengaturan instansi aktivitas Moodle. Meskipun Anda memutuskan untuk selalu menampilkan opsi tersebut, pengguna tetap memerlukan enkripsi ujung ke ujung di Zoom untuk akhirnya mengaktifkan enkripsi ujung ke ujung.';
+$string['encryptiontype_disable'] = 'Nonaktifkan pemilih jenis enkripsi';
+$string['encryptiontype_showonlyife2epossible'] = 'Tampilkan pemilih jenis enkripsi hanya jika pengguna dapat menggunakan enkripsi ujung ke ujung';
+$string['end_date_option_after'] = 'Setelah';
+$string['end_date_option_by'] = 'Pada';
+$string['end_date_option_occurrences'] = 'kejadian';
+$string['enddate'] = 'Tanggal akhir';
+$string['endtime'] = 'Waktu berakhir';
+$string['err_downloadicaldisabled'] = 'Pengunduhan berkas iCal rapat Zoom dinonaktifkan.';
+$string['err_downloadicalrecurringempty'] = 'Pengunduhan berkas iCal rapat Zoom tidak memungkinkan untuk rapat ini karena tidak memuat setidaknya satu kejadian pun.';
+$string['err_downloadicalrecurringnofixed'] = 'Pengunduhan berkas iCal rapat Zoom tidak memungkinkan untuk rapat ini karena ini adalah rapat berulang tanpa waktu tetap.';
+$string['err_duration_nonpositive'] = 'Durasi tidak dapat bernilai negatif.';
+$string['err_duration_too_long'] = 'Durasi tidak boleh melebihi 150 jam.';
+$string['err_end_date'] = 'Tanggal akhir pengulangan tidak boleh di masa lampau';
+$string['err_end_date_before_start'] = 'Tanggal akhir pengulangan tidak boleh sebelum tanggal mulai';
+$string['err_invalid_password'] = 'Kode masuk terdapat karakter yang tidak valid';
+$string['err_long_timeframe'] = 'Kerangka waktu yang diminta terlalu lama, menampilkan hasil bulan terakhir dalam rentang.';
+$string['err_password'] = 'Kode sandi hanya boleh berisi karakter berikut: [a-z A-Z 0-9 @ - _ *]. Maksimal 10 karakter.';
+$string['err_password_required'] = 'Kata sandi dibutuhkan.';
+$string['err_registration'] = 'Pengguna saat ini tidak diizinkan untuk membuat rapat/webinar yang memerlukan pendaftaran.';
+$string['err_repeat_monthly_interval'] = 'Interval maksimal untuk pertemuan bulanan adalah 3 bulan';
+$string['err_repeat_weekly_interval'] = 'Interval maksimum untuk pertemuan mingguan adalah 12 minggu';
+$string['err_start_time_past'] = 'Tanggal mulai tidak dapat berada di masa lampau.';
+$string['err_start_time_past_recurring'] = 'Untuk rapat berulang, bagian tanggal pada kolom ini adalah tanggal paling awal untuk rapat berikutnya. Tanggal ini harus hari ini atau di masa mendatang.';
+$string['err_weekly_days'] = 'Pilih hari untuk pertemuan mingguan berulang';
+$string['erroraddinstance'] = 'Tidak dapat membuat rapat Zoom baru. Opsi yang dipilih tidak valid untuk rapat berulang.';
+$string['errorwebservice'] = 'Galat layanan web Zoom: {$a}.';
+$string['errorwebservice_badrequest'] = 'Zoom menerima permintaan yang buruk: {$a}';
+$string['errorwebservice_notfound'] = 'Sumber daya tidak ada: {$a}';
+$string['export'] = 'Ekspor';
+$string['externaluser'] = 'Pengguna eksternal';
+$string['firstjoin'] = 'Pertama bisa gabung';
+$string['firstjoin_desc'] = 'Waktu paling awal pengguna dapat gabung ke rapat terjadwal (menit sebelum mulai).';
+$string['getmeetingrecordings'] = 'Dapatkan rekaman rapat dari Zoom';
+$string['getmeetingreports'] = 'Dapatkan laporan rapat dari Zoom';
+$string['globalsettings'] = 'Pengaturan global';
+$string['globalsettings_desc'] = 'Pengaturan ini berlaku untuk pengaya Zoom secara keseluruhan.';
+$string['grading_needgrade'] = 'Pengguna berikut perlu dinilai secara manual karena mereka tidak dapat diidentifikasi:\\n';
+$string['grading_notenrolled'] = 'Pengguna berikut gabung dalam rapat tetapi tidak dikenali sebagai pengguna terdaftar:\\n';
+$string['grading_notfound'] = 'Daftar pengguna yang mengklik untuk gabung dalam rapat, tetapi tidak dikenali dalam laporan peserta:\\n';
+$string['gradingentry'] = 'Saat masuk';
+$string['gradinglink'] = 'Tinjau atau perbarui nilai';
+$string['gradingmessagebody'] = 'Untuk sesi Rapat Zoom: {$a->zoomurl};
+<br>
+Jumlah pengguna yang telah dinilai secara otomatis berdasarkan durasi rapat: {$a->graded}.
+<br>
+Jumlah pengguna yang telah dinilai: {$a->alreadygraded}.
+<br>
+{$a->needgrade}<br>
+Tinjau atau perbarui nilai pengguna di sini: {$a->gradeurl}
+<br>
+{$a->notfound}
+<br>
+{$a->notenrolled}';
+$string['gradingmessagesubject'] = 'Nilai pengguna untuk rapat Zoom: {$a->name}';
+$string['gradingmethod'] = 'Metode penilaian';
+$string['gradingmethod_heading'] = 'Opsi untuk metode penilaian';
+$string['gradingmethod_heading_help'] = 'Tentukan metode mana yang akan digunakan saat menilai partisipasi Zoom.';
+$string['gradingmethod_help'] = 'Pilih metode yang akan digunakan saat menilai partisipasi siswa.<br>
+Saat masuk: siswa menerima nilai penuh (nilai maksimal) saat mereka mengklik untuk gabung ke rapat di Moodle.<br>
+Durasi kehadiran: siswa menerima skor berdasarkan persentase kehadiran rapat mereka dibandingkan dengan total durasi rapat.<br>
+Catatan mengenai metode Durasi kehadiran:<br>
+- Metode ini mengharuskan nama tampilan berisi id atau nama lengkap.<br>
+- Disarankan untuk mengatur pengaturan \'zoom | defaultjoinbeforehost\' ke (Tidak) agar durasi rapat akurat.<br>
+- Beberapa siswa yang sudah masuk ke klien Zoom dengan detail yang tidak sesuai dengan yang ada di Moodle harus dinilai secara manual setelah meninjau laporan rapat.';
+$string['gradingperiod'] = 'Durasi Kehadiran';
+$string['gradingsmallmeassage'] = 'Laporan cepat penilaian pengguna untuk {$a->name}:
+<br>
+Perlu penilaian manual: {$a->number}
+<br>
+Pengguna yang dinilai: {$a->graded + $a->alreadygraded}';
+$string['host'] = 'Hos';
+$string['hostintro'] = '<a target="_blank" href="https://support.zoom.us/hc/en-us/articles/208220166">Host Alternatif</a> dapat memulai rapat Zoom dan mengelola Ruang Tunggu.';
+$string['indicator:cognitivedepth'] = 'Kognitif Zoom';
+$string['indicator:cognitivedepth_help'] = 'Indikator ini didasarkan pada kedalaman kognitif yang dicapai siswa dalam aktivitas Zoom.';
+$string['indicator:socialbreadth'] = 'Sosial Zoom';
+$string['indicator:socialbreadth_help'] = 'Indikator ini didasarkan pada luasnya jangkauan sosial siswa dalam aktivitas Zoom.';
+$string['instanceusers'] = 'Periksa pengguna instansi';
+$string['instanceusers_desc'] = 'Jika Definisikan ulang lisensi diaktifkan, hanya periksa pengguna berlisensi pada instansi Moodle ini. Berguna untuk pengaturan di mana beberapa instansi terpisah membagi satu kumpulan lisensi Zoom.';
+$string['invalid_status'] = 'Status tidak valid, periksa basis data.';
+$string['invalidscheduleuser'] = 'Anda tidak dapat menjadwalkan untuk pengguna yang ditentukan.';
+$string['invitation_dialin'] = 'Pola panggilan masuk';
+$string['invitation_dialin_help'] = 'Pola regex untuk menemukan tombol panggilan rapat Zoom dalam angka.';
+$string['invitation_h323'] = 'Pola pesan H.323';
+$string['invitation_h323_help'] = 'Pola regex untuk menemukan informasi rapat Zoom H.323. Jika undangan Anda tidak berisi elemen SIP atau H.323, tetapkan pola ekspresi reguler yang sesuai ke string kosong. (Hal ini terutama berlaku untuk server dengan fitur debugging yang diaktifkan, karena dapat merusak format jenis berkas khusus seperti ekspor iCal.)';
+$string['invitation_icallink'] = 'Pola pesan tautan iCal';
+$string['invitation_icallink_help'] = 'Pola regex untuk menemukan tautan iCal rapat Zoom.';
+$string['invitation_invite'] = 'Pola pesan undangan';
+$string['invitation_invite_help'] = 'Pola regex untuk menemukan pesan pengantar rapat Zoom.';
+$string['invitation_joinurl'] = 'Pola URL gabung';
+$string['invitation_joinurl_help'] = 'Pola regex untuk menemukan url gabung ke rapat Zoom.';
+$string['invitation_onetapmobile'] = 'Pola seluler satu ketukan';
+$string['invitation_onetapmobile_help'] = 'Pola regex untuk menemukan rincian seluler satu ketukan rapat Zoom.';
+$string['invitation_sip'] = 'Pola SIP';
+$string['invitation_sip_help'] = 'Pola regex untuk menemukan informasi SIP rapat Zoom. Jika undangan Anda tidak berisi elemen SIP atau H.323, tetapkan pola ekspresi reguler yang sesuai ke string kosong. (Hal ini terutama berlaku untuk server dengan fitur pengawakutu yang diaktifkan, karena dapat merusak format jenis berkas khusus seperti ekspor iCal.)';
+$string['invitationmatchnotfound'] = 'Tidak ditemukan kecocokan dalam undangan zoom untuk elemen: "{$a->element}" dengan pola: "{$a->pattern}".';
+$string['invitationmodificationfailed'] = 'Galat dalam regex untuk elemen undangan zoom: "{$a->element}" dengan pola: "{$a->pattern}".';
+$string['invitationregex'] = 'Regex undangan Zoom dan kemampuannya';
+$string['invitationregex_help'] = 'Tentukan pola regex untuk mengisolasi setiap bagian undangan zoom sehingga informasinya dapat dikontrol oleh kemampuan.';
+$string['invitationregex_nohideif'] = 'Harap dicatat: Pola regex hanya akan digunakan jika pengaturan \'{$a}\' diaktifkan.';
+$string['invitationregexenabled'] = 'Aktifkan regex dan kemampuan undangan zoom.';
+$string['invitationregexenabled_help'] = 'Saat diaktifkan, undangan Zoom yang ditampilkan dalam aktivitas akan dipecah menjadi beberapa elemen menggunakan regex berikut, dan kapabilitas akan digunakan untuk menentukan bagian mana yang akan ditampilkan kepada setiap pengguna. Lihat kapabilitas zoom/viewjoinurl dan zoom/viewdialin.';
+$string['invitationremoveicallink'] = 'Hapus tautan iCal undangan zoom';
+$string['invitationremoveicallink_help'] = 'Jika diaktifkan, tautan iCal yang mungkin disertakan dalam pesan surel rapat zoom akan dihapus menggunakan pola regex invitation_icallink.';
+$string['invitationremoveinvite'] = 'Hapus pesan undang undangan zoom';
+$string['invitationremoveinvite_help'] = 'Jika diaktifkan, kalimat pengantar dalam pesan surel rapat zoom akan dihapus menggunakan pola regex invitation_invite.';
+$string['join'] = 'Gabung';
+$string['join_meeting'] = 'Bergabung ke pertemuan/rapat';
+$string['joinbeforehost'] = 'Gabung ke rapat sebelum host';
+$string['joinbeforehostenable'] = 'Izinkan peserta untuk gabung kapan saja';
+$string['joinlink'] = 'Bergabunglah dengan tautan';
+$string['jointime'] = 'Waktu gabung';
+$string['leavetime'] = 'Waktu tinggal';
+$string['licenseonjoin'] = 'Pilih opsi ini jika Anda ingin host menerima lisensi saat memulai rapat, <i>serta</i> saat pembuatan.';
+$string['licensesettings'] = 'Pengaturan lisensi';
+$string['licensesettings_desc'] = 'Pengaturan ini menentukan cara Moodle menangani lisensi Zoom Anda.';
+$string['licensesnumber'] = 'Jumlah lisensi';
+$string['lowlicenses'] = 'Jika jumlah lisensi Anda melebihi yang dipersyaratkan, setiap kali Anda membuat setiap aktivitas baru oleh pengguna, lisensi PRO akan diberikan kepada pengguna tersebut dengan menurunkan status pengguna lain. Opsi ini berlaku jika jumlah lisensi PRO aktif lebih dari 5.';
+$string['maskparticipantdata'] = 'Data peserta masker';
+$string['maskparticipantdata_help'] = 'Mencegah data peserta muncul dalam laporan (berguna untuk situs yang menyembunyikan data peserta, misalnya, untuk HIPAA).';
+$string['media'] = 'Media';
+$string['meeting_finished'] = 'Selesai';
+$string['meeting_invite'] = 'Info Telepon/Panggilan Masuk';
+$string['meeting_invite_hide'] = 'Sembunyikan undangan rapat';
+$string['meeting_invite_show'] = 'Tampilkan undangan pertemuan/rapat';
+$string['meeting_nonexistent_on_zoom'] = 'Tidak ada di Zoom';
+$string['meeting_not_started'] = 'Belum dimulai';
+$string['meeting_started'] = 'Berlangsung';
+$string['meeting_time'] = 'Waktu mulai';
+$string['meetingactivityurl'] = 'URL aktivitas rapat: <a href="{$a}">{$a}</a>';
+$string['meetingcapacitywarning'] = 'Peringatan kapasitas rapat';
+$string['meetingcapacitywarning_desc'] = 'Dengan pengaturan ini, Anda dapat menampilkan notifikasi peringatan jika jumlah peserta aktif dan terdaftar dalam kursus melebihi kapasitas rapat lisensi Zoom penyelenggara. Notifikasi ini akan ditampilkan kepada penyelenggara (dan penyelenggara alternatif) di halaman ikhtisar aktivitas Zoom. Notifikasi ini akan merekomendasikan penyelenggara untuk menghubungi pemilik akun Zoom untuk mendapatkan lisensi Zoom yang lebih besar jika diperlukan. Anda dapat mengubah pesan ini melalui kustomisasi bahasa Moodle.';
+$string['meetingcapacitywarning_disable'] = 'Nonaktifkan peringatan kapasitas rapat';
+$string['meetingcapacitywarning_enable'] = 'Aktifkan peringatan kapasitas rapat';
+$string['meetingcapacitywarningbodyalthost'] = 'Lisensi Zoom dari penyelenggara pertemuan ini, {$a->hostname}, memiliki kapasitas <strong>{$a->meetingcapacity} peserta pertemuan</strong>, tetapi kursus ini memiliki <strong><a href="{$a->courseparticipantsurl}">{$a->eligiblemeetingparticipants} peserta terdaftar dan aktif</a></strong>.';
+$string['meetingcapacitywarningbodyrealhost'] = 'Lisensi Zoom Anda memiliki kapasitas <strong><a href="{$a->zoomprofileurl}" target="_blank">{$a->meetingcapacity} peserta rapat</a></strong>, tetapi kursus ini memiliki <strong><a href="{$a->courseparticipantsurl}">{$a->eligiblemeetingparticipants} peserta terdaftar dan aktif</a></strong>.';
+$string['meetingcapacitywarningcontactalthost'] = 'Silakan minta host untuk menghubungi pemilik akun Zoom untuk mendapatkan lisensi Zoom yang lebih besar jika semua peserta kursus ini perlu bergabung dalam rapat.';
+$string['meetingcapacitywarningcontactrealhost'] = 'Silakan hubungi pemilik akun Zoom untuk mendapatkan lisensi Zoom yang lebih besar jika semua peserta kursus ini perlu bergabung dalam rapat.';
+$string['meetingcapacitywarningheading'] = 'Peringatan kapasitas rapat:';
+$string['meetingparticipantsdeleted'] = 'Data pengguna peserta rapat dihapus.';
+$string['meetingrecordingviewsdeleted'] = 'Data tampilan pengguna rekaman rapat dihapus.';
+$string['messageprovider:ical_notifications'] = 'Kirim undangan iCal untuk acara Zoom yang baru dibuat kepada peserta.';
+$string['messageprovider:teacher_notification'] = 'Beritahu guru tentang nilai pengguna (berdasarkan durasi) dalam sesi Zoom';
+$string['modulename'] = 'Rapat Zoom';
+$string['modulename_help'] = 'Zoom adalah platform konferensi video dan web yang memberikan pengguna resmi kemampuan untuk menyelenggarakan rapat daring.';
+$string['modulenameplural'] = 'Rapat Zoom';
+$string['month'] = 'Bulan';
+$string['month_day_text'] = 'bulan ini';
+$string['newmeetings'] = 'Rapat Baru';
+$string['nextoccurrence'] = 'Kejadian selanjutnya';
+$string['nomeetinginstances'] = 'Tidak ada sesi yang ditemukan untuk rapat ini.';
+$string['nonrecognizedusergrade'] = '(Nama: {$a->userid}, nilai: {$a->grade})';
+$string['nooccurrenceleft'] = 'Kejadian terakhir sudah berakhir';
+$string['noparticipants'] = 'Tidak ada peserta yang ditemukan untuk sesi ini saat ini.';
+$string['norecordings'] = 'Tidak ada rekaman yang ditemukan untuk pertemuan ini saat ini.';
+$string['norooms'] = 'Tidak Ada Ruangan';
+$string['nosessions'] = 'Tidak ada sesi yang ditemukan untuk rentang yang ditentukan.';
+$string['nozooms'] = 'Tidak ada rapat';
+$string['nozoomsfound'] = 'Tidak ada rapat yang ditemukan untuk kursus yang diberikan.';
+$string['occurson'] = 'Terjadi Pada';
+$string['off'] = 'Padam';
+$string['oldmeetings'] = 'Pertemuan yang Telah Selesai';
+$string['on'] = 'Menyala';
+$string['option_allow_recording_change'] = 'Izinkan pengubahan rekaman';
+$string['option_allow_recording_change_help'] = 'Izinkan pengguna untuk mengubah pengaturan rekaman pada waktu pembuatan aktivitas';
+$string['option_audio'] = 'Opsi audio';
+$string['option_audio_help'] = 'Dengan opsi ini, Anda dapat mengizinkan pengguna untuk menelepon menggunakan hanya Telepon, hanya Audio komputer, atau keduanya';
+$string['option_authenticated_users'] = 'Memerlukan autentikasi untuk bergabung';
+$string['option_authenticated_users_help'] = 'Mengaktifkan opsi ini mengharuskan semua peserta untuk masuk dengan akun Zoom resmi mereka agar dapat bergabung dalam rapat. Hal ini <em>tidak</em> berkaitan dengan proses masuk ke Moodle sama sekali.';
+$string['option_auto_recording'] = 'Perekaman otomatis';
+$string['option_auto_recording_help'] = 'Mengaktifkan opsi ini akan secara otomatis merekam rapat';
+$string['option_encryption_type'] = 'Enkripsi';
+$string['option_encryption_type_endtoendencryption'] = 'Enkripsi ujung ke ujung';
+$string['option_encryption_type_enhancedencryption'] = 'Enkripsi yang ditingkatkan';
+$string['option_encryption_type_help'] = 'Dengan opsi ini, Anda mengendalikan tingkat enkripsi dan privasi rapat ini.\\n\\n*Enkripsi yang ditingkatkan* berarti kunci enkripsi disimpan di cloud Zoom.\\n\\n*Enkripsi ujung ke ujung* berarti kunci enkripsi disimpan di perangkat lokal Anda dan tidak seorang pun dapat memperoleh kunci enkripsi Anda, bahkan Zoom.\\n\\nHarap perhatikan bahwa ketika Anda mengaktifkan enkripsi ujung ke ujung, beberapa fitur tidak akan tersedia dari dalam rapat - [Lihat detailnya dalam dokumentasi Zoom](https://support.zoom.us/hc/en-us/articles/360048660871).';
+$string['option_host_video'] = 'Video host';
+$string['option_host_video_help'] = 'Mengaktifkan opsi ini akan mengaktifkan video host saat bergabung ke rapat. Bahkan jika Anda menonaktifkannya, host akan tetap memiliki opsi untuk memulai videonya.';
+$string['option_jbh'] = 'Gabung sebelum host';
+$string['option_jbh_help'] = 'Mengaktifkan opsi ini memungkinkan peserta untuk bergabung dalam rapat sebelum host bergabung atau saat host tidak dapat menghadiri rapat.\\n\\nOpsi ini saling eksklusif dengan opsi \'Ruang tunggu\', jadi memilih yang satu akan menonaktifkan yang lain.';
+$string['option_mute_upon_entry'] = 'Bisukan peserta saat masuk';
+$string['option_mute_upon_entry_help'] = 'Mengaktifkan opsi ini akan secara otomatis menonaktifkan suara semua peserta saat mereka bergabung dalam rapat. Peserta dapat mengaktifkan kembali suara mereka sendiri setelah bergabung dalam rapat.';
+$string['option_participants_video'] = 'Video peserta';
+$string['option_participants_video_help'] = 'Mengaktifkan opsi ini akan mengaktifkan video peserta saat bergabung ke rapat. Meskipun Anda menonaktifkannya, peserta tetap memiliki opsi untuk memulai video mereka.';
+$string['option_proxyhost'] = 'Gunakan proksi';
+$string['option_proxyhost_desc'] = 'Proksi yang diatur di sini sebagai \'<code>&lt;namahost&gt;:&lt;port&gt;</code>\' hanya digunakan untuk berkomunikasi dengan Zoom. Kosongkan untuk menggunakan pengaturan proksi bawaan Moodle. Anda hanya perlu mengatur ini jika tidak ingin mengatur proksi global di Moodle.';
+$string['option_view_recordings'] = 'Izinkan rekaman untuk dilihat';
+$string['option_waiting_room'] = 'Ruang tunggu';
+$string['option_waiting_room_help'] = 'Mengaktifkan opsi ini memungkinkan host mengontrol kapan peserta bergabung dalam rapat. Opsi ini saling eksklusif dengan opsi \'Bergabung sebelum host\', jadi memilih yang satu akan menonaktifkan yang lain.';
+$string['participantdatanotavailable'] = 'Rincian tidak tersedia';
+$string['participantdatanotavailable_help'] = 'Data peserta tidak tersedia untuk sesi Zoom ini (misalnya, karena kepatuhan HIPAA).';
+$string['participantgroups'] = 'Grup peserta';
+$string['participants'] = 'Peserta';
+$string['password'] = 'Kode sandi';
+$string['password_allowed_char'] = 'Kode sandi hanya boleh berisi karakter berikut: [a-z A-Z 0-9 @ - _ *].';
+$string['password_consecutive'] = 'Maksimal {$a} karakter berurutan (abcd, 1111, 1234, dst.).';
+$string['password_length'] = 'Minimal {$a} karakter.';
+$string['password_letter'] = 'Kode sandi harus berisi setidaknya 1 huruf.';
+$string['password_lower_upper'] = 'Kode sandi harus menyertakan karakter huruf kecil dan huruf besar.';
+$string['password_max_length'] = 'Maksimal 10 karakter.';
+$string['password_number'] = 'Kode sandi harus berisi setidaknya 1 angka.';
+$string['password_only_numeric'] = 'Kode sandi hanya boleh berisi angka dan tidak boleh berisi karakter lain.';
+$string['password_special'] = 'Kode sandi harus memiliki setidaknya 1 karakter khusus (@-_*).';
+$string['passwordprotected'] = 'Kode Sandi Terlindungi';
+$string['pluginadministration'] = 'Kelola rapat Zoom';
+$string['pluginname'] = 'Rapat Zoom';
+$string['privacy:metadata:zoom_breakout_participants'] = 'Tabel basis data untuk menyimpan daftar peserta ruang pertemuan rapat zoom';
+$string['privacy:metadata:zoom_breakout_participants:userid'] = 'id pengguna peserta';
+$string['privacy:metadata:zoom_meeting_details'] = 'Tabel basis data yang menyimpan informasi tentang setiap kejadian rapat.';
+$string['privacy:metadata:zoom_meeting_details:topic'] = 'Nama rapat yang dihadiri pengguna.';
+$string['privacy:metadata:zoom_meeting_participants'] = 'Tabel basis data yang menyimpan informasi tentang peserta rapat.';
+$string['privacy:metadata:zoom_meeting_participants:duration'] = 'Berapa lama peserta berada dalam rapat';
+$string['privacy:metadata:zoom_meeting_participants:join_time'] = 'Waktu dimana peserta bergabung dalam pertemuan/rapat';
+$string['privacy:metadata:zoom_meeting_participants:leave_time'] = 'Waktu dimana peserta meninggalkan pertemuan/rapat';
+$string['privacy:metadata:zoom_meeting_participants:name'] = 'Nama peserta';
+$string['privacy:metadata:zoom_meeting_participants:user_email'] = 'Email peserta';
+$string['privacy:metadata:zoom_meeting_view'] = 'Tabel database untuk melacak pengguna yang melihat rekaman rapat';
+$string['privacy:metadata:zoom_meeting_view:userid'] = 'id pengguna yang melihat rekaman tersebut';
+$string['protectedgroups'] = 'Lindungi grup';
+$string['protectedgroups_desc'] = 'Pilih grup Zoom untuk melindungi pengguna anggota dari pendefinisian ulang lisensi';
+$string['recording'] = 'Rekaman';
+$string['recordingadd'] = 'Tambahkan Rekaman';
+$string['recordingdate'] = 'Tanggal Rekaman';
+$string['recordingdelete'] = 'Apakah Anda yakin ingin menghapus rekaman "{$a}"?';
+$string['recordinghide'] = 'Sembunyikan Rekaman (Saat Ini Terlihat)';
+$string['recordinglink'] = 'Tautan Rekaman';
+$string['recordingname'] = 'Judul';
+$string['recordingnotfound'] = 'Rekaman tidak dapat ditemukan';
+$string['recordingnotvisible'] = 'Rekaman tidak terlihat. Silakan hubungi Administrator Sistem Anda jika Anda yakin ini adalah galat.';
+$string['recordingpasscode'] = 'Kode Sandi Rekaman';
+$string['recordings'] = 'Rekaman';
+$string['recordingshow'] = 'Tampilkan Rekaman (Saat Ini Tersembunyi)';
+$string['recordingshowtoggle'] = 'Alih Tampilkan Rekaman';
+$string['recordingtype_active_speaker'] = 'Pembicara Aktif';
+$string['recordingtype_audio_interpretation'] = 'Interpretasi Audio';
+$string['recordingtype_audio_only'] = 'Hanya Audio';
+$string['recordingtype_audio_transcript'] = 'Transkrip Audio';
+$string['recordingtype_chat'] = 'Berkas Obrolan';
+$string['recordingtype_closed_caption'] = 'Teks Tertutup';
+$string['recordingtype_gallery'] = 'Tampilan Galeri';
+$string['recordingtype_poll'] = 'Pemilihan';
+$string['recordingtype_production_studio'] = 'Studio Produksi';
+$string['recordingtype_shared'] = 'Layar Bersama';
+$string['recordingtype_shared_gallery'] = 'Layar Bersama dengan Tampilan Galeri';
+$string['recordingtype_shared_speaker'] = 'Layar Bersama dengan Tampilan Pembicara';
+$string['recordingtype_shared_speaker_cc'] = 'Layar Bersama dengan Tampilan Pembicara (CC)';
+$string['recordingtype_sign'] = 'Interpretasi Tanda';
+$string['recordingtype_speaker'] = 'Tampilan Pembicara';
+$string['recordingtype_summary'] = 'Ringkasan';
+$string['recordingtype_summary_next_steps'] = 'Ringkasan Langkah Selanjutnya';
+$string['recordingtype_summary_smart_chapters'] = 'Ringkasan Bab Pintar';
+$string['recordingtype_timeline'] = 'Garis Waktu';
+$string['recordingurl'] = 'URL Rekaman';
+$string['recordingview'] = 'Lihat Rekaman';
+$string['recordingvisibility'] = 'Apakah rekaman untuk rapat ini terlihat secara bawaan?';
+$string['recordingvisibility_help'] = 'Saat rekaman baru untuk rapat ini diambil, apakah rekaman tersebut harus terlihat di Moodle secara bawaan?';
+$string['recreatesuccessful'] = 'Berhasil membuat ulang rapat';
+$string['recurrence_option_daily'] = 'Harian';
+$string['recurrence_option_monthly'] = 'Bulanan';
+$string['recurrence_option_no_time'] = 'Tidak Ada Waktu Tetap';
+$string['recurrence_option_weekly'] = 'Mingguan';
+$string['recurrencetype'] = 'Berulang';
+$string['recurringmeeting'] = 'Rapat berulang';
+$string['recurringmeeting_help'] = 'Mengaktifkan opsi ini akan menjadikan rapat sebagai rapat berulang tanpa tanggal atau waktu berakhir. Rapat dapat diakses kapan saja.';
+$string['recurringmeetingexplanation'] = 'Rapat tersebut tidak memiliki tanggal atau waktu berakhir';
+$string['recurringmeetinglong'] = 'Rapat berulang (rapat tanpa tanggal atau waktu berakhir)';
+$string['recurringmeetingthisis'] = 'Ini adalah rapat yang berulang';
+$string['recycleonjoin'] = 'Lisensi daur ulang setelah bergabung';
+$string['redefinelicenses'] = 'Definisikan ulang lisensi';
+$string['refreshreports'] = 'Segarkan laporan sesi';
+$string['register'] = 'Daftar';
+$string['registration'] = 'Memerlukan pendaftaran';
+$string['registration_help'] = 'Mengaktifkan opsi ini akan memaksa peserta untuk mendaftar pada rapat/webinar Zoom sebelum bergabung.';
+$string['registration_text'] = 'Paksa peserta untuk mendaftar ke rapat/webinar';
+$string['repeatinterval'] = 'Ulangi Setiap';
+$string['report'] = 'Laporan';
+$string['reportapicalls'] = 'Laporkan panggilan API yang telah habis';
+$string['requirepasscode'] = 'Perlu kode akses rapat';
+$string['requirepasscode_help'] = 'Mengaktifkan opsi ini mengharuskan penyelenggara rapat untuk mengatur kode sandi. Peserta yang bergabung akan diminta untuk memasukkan kode sandi ini sebelum bergabung ke rapat. Peserta yang masuk ke rapat melalui aktivitas Moodle tidak perlu memasukkan kode sandi ini.';
+$string['resetapicalls'] = 'Atur ulang jumlah panggilan API yang tersedia';
+$string['resetzoomsall'] = 'Hapus semua nilai pengguna, rekaman data tampilan pengguna, dan data pengguna peserta rapat.';
+$string['room'] = 'Ruangan';
+$string['roomname'] = 'Nama ruangan';
+$string['rooms'] = 'Ruangan';
+$string['schedule'] = 'Jadwal';
+$string['schedulefor'] = 'Jadwal Pertemuan/rapat untuk';
+$string['schedulefor_help'] = 'Anda dapat menjadwalkan rapat atas nama pengguna lain. Sebagai prasyarat, pengguna ini harus telah memberikan Anda hak istimewa penjadwalan di Zoom. Pengguna yang dipilih akan menjadi penyelenggara rapat dan lisensi Zoom-nya akan digunakan untuk rapat tersebut.';
+$string['scheduleforself'] = 'DIri Anda';
+$string['schedulingprivilege'] = 'Hak istimewa penjadwalan';
+$string['schedulingprivilege_desc'] = 'Dengan pengaturan ini, Anda dapat mengontrol apakah opsi hak istimewa penjadwalan akan ditampilkan kepada pengguna di pengaturan instansi aktivitas atau tidak. Pengaturan ini hanya memengaruhi pengaturan instansi aktivitas Moodle. Meskipun Anda memutuskan untuk menampilkan opsi ini, pengguna tetap perlu mendapatkan hak istimewa penjadwalan yang diberikan oleh pengguna lain di Zoom untuk menjadwalkan rapat bagi pengguna tersebut.';
+$string['schedulingprivilege_disable'] = 'Nonaktifkan opsi hak istimewa penjadwalan';
+$string['schedulingprivilege_enable'] = 'Aktifkan opsi hak istimewa penjadwalan';
+$string['search:activity'] = 'Informasi Aktivitas Zoom';
+$string['security'] = 'Keamanan';
+$string['selectionarea'] = 'Tidak ada pilihan';
+$string['sendicalnotifications'] = 'Kirim Notifikasi iCal';
+$string['sendicalnotifications_help'] = 'Mengaktifkan opsi ini akan memungkinkan Notifikasi iCal dikirim melalui tugas terjadwal \'Kirim Notifikasi iCal\'.';
+$string['sendicalnotifications_warning'] = 'Lampiran harus diaktifkan dalam konfigurasi Administrasi Situs / Server / Surel / Surat keluar untuk menggunakan opsi ini.';
+$string['sessions'] = 'Sesi';
+$string['sessionsreport'] = 'Laporan sesi';
+$string['sesskeyinvalid'] = 'Sesi tidak valid terdeteksi. Tidak dapat melanjutkan.';
+$string['setpasscode'] = 'Atur kode sandi';
+$string['showmedia'] = 'Tampilkan bagian Media';
+$string['showmedia_help'] = 'Mengaktifkan opsi ini akan menampilkan bagian Media pada halaman aktivitas rapat.';
+$string['showmediaonview'] = 'Tampilkan bagian Media di halaman rapat';
+$string['showschedule'] = 'Tampilkan bagian Jadwal';
+$string['showschedule_help'] = 'Mengaktifkan opsi ini akan menampilkan bagian Jadwal pada halaman aktivitas rapat.';
+$string['showscheduleonview'] = 'Tampilkan bagian Jadwal di halaman rapat';
+$string['showsecurity'] = 'Tampilkan bagian Keamanan';
+$string['showsecurity_help'] = 'Mengaktifkan opsi ini akan menampilkan bagian Keamanan pada halaman aktivitas rapat.';
+$string['showsecurityonview'] = 'Tampilkan bagian Keamanan di halaman rapat';
+$string['start'] = 'Mulai';
+$string['start_time'] = 'Kapan';
+$string['starthostjoins'] = 'Mulai video saat pembaya acara  bergabung';
+$string['startpartjoins'] = 'Mulai video ketika peserta bergabung';
+$string['starttime'] = 'Waktu mulai';
+$string['status'] = 'Status';
+$string['supplementaryfeaturessettings'] = 'Pengaturan fitur tambahan';
+$string['supplementaryfeaturessettings_desc'] = 'Pengaturan ini mengontrol apakah dan bagaimana fitur Zoom tambahan disediakan kepada pengguna.';
+$string['title'] = 'Judul';
+$string['topic'] = 'Topik';
+$string['trackingfields'] = 'Kolom pelacakan';
+$string['trackingfields_help'] = 'Masukkan nama/label bidang pelacakan, dipisahkan dengan koma, untuk mengaktifkan aktivitas Zoom.';
+$string['trackingfields_recommendedvalues'] = 'Nilai yang disarankan:';
+$string['unamedisplay'] = 'Nama tampilan pengguna';
+$string['unamedisplay_help'] = 'Bagaimana nama pengguna seharusnya ditampilkan dalam rapat (hanya berfungsi untuk pengguna yang tidak masuk ke klien Zoom).';
+$string['unavailable'] = 'Anda tidak dapat bergabung saat ini.';
+$string['unavailablefinished'] = 'Rapatnya sudah selesai.';
+$string['unavailablefirstjoin'] = 'Anda dapat bergabung {$a->mins} menit sebelum waktu mulai yang dijadwalkan paling cepat.';
+$string['unavailablenotstartedyet'] = 'Rapat belum dimulai.';
+$string['updatemeetings'] = 'Mutakhirkan pengaturan pertemuan dari Zoom';
+$string['updatetrackingfields'] = 'Perbarui pengaturan bidang pelacakan dari Zoom';
+$string['usepersonalmeeting'] = 'Gunakan ID pertemuan pribadi {$a}';
+$string['waitingroom'] = 'Ruang tunggu';
+$string['waitingroomenable'] = 'Aktifkan ruang tunggu';
+$string['webinar'] = 'Webinar';
+$string['webinar_already_false'] = '<p> <b> Modul ini sudah disetel sebagai rapat, bukan webinar. Anda tidak dapat mengubah setelan ini setelah membuat rapat. </b> </p>';
+$string['webinar_already_true'] = '<p> <b> Modul ini sudah disetel sebagai webinar, bukan rapat. Anda tidak dapat mengubah setelan ini setelah membuat webinar. </b> </p>';
+$string['webinar_alwaysshow'] = 'Selalu tampilkan opsi webinar terlepas dari apakah pengguna memiliki lisensi untuk menyelenggarakan webinar';
+$string['webinar_by_default'] = 'Webinar secara bawaan';
+$string['webinar_by_default_desc'] = 'Buat instansi Zoom sebagai webinar secara bawaan.';
+$string['webinar_desc'] = 'Dengan pengaturan ini, Anda dapat mengontrol apakah opsi untuk membuat webinar akan ditampilkan kepada pengguna selama pembuatan rapat atau tidak. Pengaturan ini hanya memengaruhi pengaturan contoh aktivitas Moodle. Bahkan jika Anda memutuskan untuk selalu menampilkan opsi tersebut, pengguna tetap memerlukan lisensi yang valid untuk webinar agar akhirnya dapat menyelenggarakan webinar.';
+$string['webinar_disable'] = 'Nonaktifkan webinar';
+$string['webinar_help'] = 'Webinar memberi penyelenggara kendali dan fleksibilitas yang lebih baik untuk menyelenggarakan rapat dengan audiens yang lebih besar.\\n\\nOpsi ini hanya tersedia untuk akun Zoom yang telah diotorisasi sebelumnya.';
+$string['webinar_showonlyiflicense'] = 'Tampilkan opsi webinar hanya jika pengguna memiliki lisensi untuk menyelenggarakan webinar';
+$string['webinarthisis'] = 'Ini adalah webinar';
+$string['week'] = 'Minggu';
+$string['weekoption_first'] = 'Pertama';
+$string['weekoption_fourth'] = 'Keempat';
+$string['weekoption_last'] = 'Terakhir';
+$string['weekoption_second'] = 'Kedua';
+$string['weekoption_third'] = 'Ketiga';
+$string['zoom:addinstance'] = 'Tambahkan rapat Zoom baru';
+$string['zoom:eligiblealternativehost'] = 'Dapat dipilih sebagai host alternatif dalam rapat Zoom';
+$string['zoom:refreshsessions'] = 'Perbarui laporan rapat Zoom';
+$string['zoom:view'] = 'Lihat Zoom Meeting';
+$string['zoom:viewdialin'] = 'Lihat informasi panggilan masuk Zoom';
+$string['zoom:viewjoinurl'] = 'Lihat url gabung Zoom';
+$string['zoomerr'] = 'Sebuah kesalahan terjadi dengan Zoom.';
+$string['zoomerr_alternativehostusernotfound'] = 'Pengguna {$a} tidak ditemukan di Zoom.';
+$string['zoomerr_apilimit'] = 'Batas kecepatan harian maksimal untuk API ini telah tercapai. Coba lagi pada {$a}';
+$string['zoomerr_field_missing'] = '{$a} tidak ditemukan';
+$string['zoomerr_id_missing'] = 'Anda harus menentukan ID course_module atau ID instansi';
+$string['zoomerr_licensesnumber_missing'] = 'Pengaturan zoom maksimal ditemukan, tetapi pengaturan nomor lisensi tidak ditemukan';
+$string['zoomerr_maxretries'] = 'Mencoba lagi {$a->maxretries} kali untuk melakukan panggilan, tetapi gagal: {$a->response}';
+$string['zoomerr_meetingnotfound'] = 'Rapat ini tidak dapat ditemukan di Zoom. Anda dapat <a href="{$a->recreate}">membuatnya ulang di sini</a> atau <a href="{$a->delete}">menghapusnya sepenuhnya</a>.';
+$string['zoomerr_meetingnotfound_info'] = 'Rapat ini tidak dapat ditemukan di Zoom. Silakan hubungi penyelenggara rapat jika Anda memiliki pertanyaan.';
+$string['zoomerr_no_access_token'] = 'Tidak ada token akses yang dikembalikan';
+$string['zoomerr_scopes'] = 'Konfigurasi Zoom OAuth tidak memiliki cakupan yang diperlukan ini: {$a}';
+$string['zoomerr_usernotfound'] = 'Tidak dapat menemukan akun Anda di Zoom. Jika Anda menggunakan Zoom untuk pertama kalinya, Anda harus mengaktifkan akun Zoom Anda dengan masuk ke <a href="{$a}" target="_blank">{$a}</a>. Setelah akun Zoom Anda diaktifkan, muat ulang halaman ini dan lanjutkan pengaturan rapat Anda. Jika tidak, pastikan alamat surel Anda di Zoom sama dengan alamat surel Anda di sistem ini.';
+$string['zoomerr_viewrecordings_off'] = 'Lihat Rekaman dimatikan, tugas tidak dapat dijalankan';
+$string['zoomurl'] = 'URL halaman web Zoom';

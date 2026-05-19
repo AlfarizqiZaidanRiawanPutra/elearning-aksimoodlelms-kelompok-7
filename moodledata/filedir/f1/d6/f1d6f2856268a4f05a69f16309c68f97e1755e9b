@@ -1,0 +1,34 @@
+Fungsi utama DHCP Server adalah
+A.Menyimpan file
+B.Memberikan IP address otomatis
+C.Menghubungkan internet
+D.Mengatur printer
+ANSWER: B
+
+DHCP merupakan singkatan dari
+A.Dynamic Host Configuration Protocol
+B.Data Host Communication Program
+C.Digital Hyper Control Protocol
+D.Dynamic Hyper Connection Program
+ANSWER: A
+
+Perangkat yang menerima IP dari DHCP disebut
+A.Host
+B.Client
+C.Router
+D.Gateway
+ANSWER: B
+
+Salah satu keuntungan DHCP adalah
+A.Konfigurasi IP lebih rumit
+B.Mengurangi kesalahan pengaturan IP
+C.Membutuhkan lebih banyak kabel
+D.Membatasi koneksi jaringan
+ANSWER: B
+
+DHCP biasanya menggunakan protokol
+A.FTP
+B.HTTP
+C.UDP
+D.SMTP
+ANSWER: C
